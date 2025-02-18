@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    /*width: 100vw;
+    height: 100vh;*/
+    font-family: 'Jost', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+.header {
+    background: #141024;
+    color:white;
+}
+.main_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 85px;
+}
+.links_header a {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+.logo_header {
+    font-size: 30px;
+    font-weight: bold;
+}
+.tel_header {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.info_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_header {
+    margin-right: 28px;
+}
+.text_header h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+.text_header h5 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.text_header button {
+    width: 260;
+    height: 80;
+    font-size: 18px;
+    font-weight: 400;
+    background: #D52027;
+    padding: 25px 54px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+.women_header {
+    height: 811px;
+}
+.description_text {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 24%;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+.description_text_bold {
+    font-weight: 600;
+}
+.advantages ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.advantages li {
+    margin-right: 40px;
+}
+.advantages_count {
+    color: #D52027;
+    font-weight: 600;
+    font-size: 70px;
+}
+.advantages_desctiption {
+    color: #141024;
+    font-weight: 400;
+    font-size: 18px;
+}
+.you_will_take-title {
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 22%; 
+    margin-bottom: 60px;
+}
+.you_will_take-description h1 {
+    color: #141024;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.you_will_take-description h5 {
+    color: #141024;
+    font-size: 18px;
+    font-weight: 400;
+}
+.you_will_take-description {
+    display: flex;
+    justify-content: center;
+}
+.you_will_take-box {
+    margin-left: 40px;
+}
+.you_will_take {
+    background: #F9F9F9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.treners-title {
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    margin-left: 18%;
+}
+.trener-boxes {
+    display: flex;
+    justify-content: center;
+}
+.trener-box {
+    margin-right: 40px;
+}
+.trener-box img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.trener-name {
+    color: #141024;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.trener-description {
+    color: #141024;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.trener-box a {
+    text-decoration: none;
+    color: #D52027;
+    font-size: 18px;
+    font-weight: 400;
+}
+.treners {
+    background: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.select-package {
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 18%;
+}
+.package-boxes {
+    display: flex;
+    justify-content: center;
+}
+.package-box {
+    width: 360px;
+    height: 460px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+    border: 1px solid #141024;
+    border-radius: 20px;
+    /* padding: 40px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: margin-bottom .2s, margin-top .2s, height .2s, background .2s;
+}
+.package-title {
+    color: #141024;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 63px; 
+    margin-top: 40px;
+    transition: margin-bottom .2s, color .2s;
+}
+.package-price {
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.package-subtitle {
+    color: #141024;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 61px;
+    transition: margin-bottom .2s, color .2s;
+}
+.package-button {
+    width: 280;
+    height: 80;
+    font-size: 18px;
+    font-weight: 400;
+    background: #D52027;
+    padding: 25px 54px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+.package-box:hover {
+    .package-title {
+        margin-bottom: 83px;
+        color: white; 
+    }
+    .package-subtitle {
+        margin-bottom: 52px;
+        color: white; 
+    }
+    .package-price {
+        color: white; 
+    }
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 500px;
+    background: #141024;
+}
+.package {
+    padding-bottom: 100px;
+}
+.completion-form {
+    background: #D52027;
+}
+.info-form-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+.info-form-subtitle {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.main-form {
+    padding-top: 87px;
+    padding-bottom: 87px;
+    display: flex;
+    justify-content: center;
+}
+.info-form {
+    margin-right: 64px;
+}
+.background-form {
+    width: 500px;
+    height: 64px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.inputtext {
+    border: none;
+    background: #F6F6F6;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+.button-form {
+    width: 500px;
+    height: 64px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #141024;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+}
+.logo-footer-title {
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo-footer-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.tel-footer {
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #141024;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}

@@ -23,7 +23,12 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 400;
     margin-right: 40px;
     color: white;
-    text-decoration: none;
+    text-decoration: overline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color .2s;
+}
+.link-header:hover {
+    text-decoration-color: #D52027;
 }
 .logo_header {
     font-size: 30px;
@@ -33,7 +38,12 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 30px;
     font-weight: 600;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color .1s;
+}
+.tel_header:hover {
+    text-decoration-color: white;
 }
 .info_header {
     display: flex;
@@ -52,7 +62,6 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 400;
     width: 65%;
     margin-top: 20px;
-    margin-bottom: 50px;
 }
 .text_header button {
     width: 260;
@@ -63,9 +72,18 @@ h1,h2,h3,h4,h5,h6 {
     padding: 25px 54px;
     border: none;
     border-radius: 5px;
+    margin-top: 50px;
     cursor: pointer;
     color: white;
     font-family: 'Jost', sans-serif;
+    transition: background .2s, border-color .2s, color .2s, border .4s;
+}
+.text_header button:hover {
+    background: white;
+    padding: 24px 53px;
+    border: 1px solid;
+    border-color: #D52027;
+    color:#D52027;
 }
 .women_header {
     height: 811px;
@@ -125,6 +143,63 @@ h1,h2,h3,h4,h5,h6 {
 .you_will_take-box {
     margin-left: 40px;
 }
+.you-will-take-hintinfo {
+    display: flex;
+}
+.you-will-take-hinttext {
+    background: #E7E6E8;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.you-will-take-hinttext::before {
+    content: 'i';
+    font-size: 18px;
+    margin-left: 10px;
+}
+.you-will-take-hinttext p {
+    width: 251px;
+    height: 56px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    color:#141024;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, -200%);
+    opacity: 0;
+    transition: opacity .3s;
+}
+.you-will-take-hinttext:hover p {
+    opacity: 1;
+}
+/*.you-will-take-hintinfo {
+    display: flex;
+}
+.you-will-take-hinttext {
+    width: 251px;
+    height: 56px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    color:#141024;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(4%, -170%);
+}
+.you-will-take-hint img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}*/
 .you_will_take {
     background: #F9F9F9;
     padding-top: 100px;
@@ -161,10 +236,15 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 20px;
 }
 .trener-box a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: transparent;
     color: #D52027;
     font-size: 18px;
     font-weight: 400;
+    transition: text-decoration-color .1s;
+}
+.trener-box a:hover {
+    text-decoration-color: #D52027;
 }
 .treners {
     background: white;
@@ -227,7 +307,18 @@ h1,h2,h3,h4,h5,h6 {
     cursor: pointer;
     color: white;
     font-family: 'Jost', sans-serif;
+    transition: background .2s, border-color .2s, color .2s, border .4s;
 }
+
+.package-button:hover {
+    background: white;
+    padding: 24px 53px;
+    border: 1px solid;
+    border-color: #D52027;
+    color:#D52027;
+}
+
+
 .package-box:hover {
     .package-title {
         margin-bottom: 83px;
@@ -301,6 +392,13 @@ h1,h2,h3,h4,h5,h6 {
     background: #141024;
     cursor: pointer;
     font-family: 'Jost', sans-serif;
+    transition: background .2s, border-color .2s, color .2s, border .4s;
+}
+.button-form:hover {
+    background: white;
+    border: 1px solid;
+    border-color: #141024;
+    color:#141024;
 }
 .logo-footer-title {
     color:white;
@@ -316,6 +414,12 @@ h1,h2,h3,h4,h5,h6 {
     color:white;
     font-size: 30px;
     font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color .1s;
+}
+.tel-footer:hover {
+    text-decoration-color: white;
 }
 .footer {
     display: flex;

@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     /*width: 100vw;
@@ -178,28 +181,6 @@ h1,h2,h3,h4,h5,h6 {
 .you-will-take-hinttext:hover p {
     opacity: 1;
 }
-/*.you-will-take-hintinfo {
-    display: flex;
-}
-.you-will-take-hinttext {
-    width: 251px;
-    height: 56px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    color:#141024;
-    font-size: 16px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(4%, -170%);
-}
-.you-will-take-hint img {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-}*/
 .you_will_take {
     background: #F9F9F9;
     padding-top: 100px;
@@ -269,7 +250,6 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 40px;
     border: 1px solid #141024;
     border-radius: 20px;
-    /* padding: 40px; */
     margin-top: 20px;
     margin-bottom: 20px;
     transition: margin-bottom .2s, margin-top .2s, height .2s, background .2s;
@@ -309,7 +289,6 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Jost', sans-serif;
     transition: background .2s, border-color .2s, color .2s, border .4s;
 }
-
 .package-button:hover {
     background: white;
     padding: 24px 53px;
@@ -317,8 +296,6 @@ h1,h2,h3,h4,h5,h6 {
     border-color: #D52027;
     color:#D52027;
 }
-
-
 .package-box:hover {
     .package-title {
         margin-bottom: 83px;
